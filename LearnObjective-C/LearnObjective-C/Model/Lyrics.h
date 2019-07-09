@@ -6,8 +6,17 @@
 //  Copyright © 2019 Lalor. All rights reserved.
 //
 
-#ifndef Lyrics_h
-#define Lyrics_h
+#import <Foundation/Foundation.h>
 
+@interface Lyrics: NSObject
 
-#endif /* Lyrics_h */
+@property (nonatomic) NSString *nameSong;
+@property (nonatomic) NSString *band;
+@property (nonatomic) NSData *image;
+@property (nonatomic) NSString *lyricsSong;
+
++ (NSArray *)createDatabase;
+
+- (instancetype)initWithName:(NSString *)nameSong band:(NSString *)band image:(NSData *)image lyricsSong:(NSString *)lyricsSong;
+
+@end
