@@ -14,6 +14,7 @@
 		84ABEAD422D52337005FAC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ABEAD322D52337005FAC66 /* Assets.xcassets */; };
 		84ABEAD722D52337005FAC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ABEAD522D52337005FAC66 /* LaunchScreen.storyboard */; };
 		84ABEADA22D52337005FAC66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABEAD922D52337005FAC66 /* main.m */; };
+		84ABEAE422D52C85005FAC66 /* Lyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABEAE322D52C85005FAC66 /* Lyrics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		84ABEAD622D52337005FAC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ABEAD822D52337005FAC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84ABEAD922D52337005FAC66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84ABEAE322D52C85005FAC66 /* Lyrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lyrics.m; sourceTree = "<group>"; };
+		84ABEAE522D52CA1005FAC66 /* Lyrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lyrics.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				84ABEAD022D52336005FAC66 /* LearnObjective_C.xcdatamodeld */,
+				84ABEAE522D52CA1005FAC66 /* Lyrics.h */,
+				84ABEAE322D52C85005FAC66 /* Lyrics.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ABEAE422D52C85005FAC66 /* Lyrics.m in Sources */,
 				84ABEACC22D52336005FAC66 /* ViewController.m in Sources */,
 				84ABEAC922D52336005FAC66 /* AppDelegate.m in Sources */,
 				84ABEADA22D52337005FAC66 /* main.m in Sources */,
