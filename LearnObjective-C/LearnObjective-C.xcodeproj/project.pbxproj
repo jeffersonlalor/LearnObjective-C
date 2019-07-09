@@ -60,18 +60,42 @@
 		84ABEAC622D52336005FAC66 /* LearnObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				84ABEAE022D52400005FAC66 /* Model */,
+				84ABEAE122D52406005FAC66 /* View */,
+				84ABEAE222D5240B005FAC66 /* Controller */,
+				84ABEAD822D52337005FAC66 /* Info.plist */,
+			);
+			path = "LearnObjective-C";
+			sourceTree = "<group>";
+		};
+		84ABEAE022D52400005FAC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84ABEAD022D52336005FAC66 /* LearnObjective_C.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84ABEAE122D52406005FAC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84ABEACD22D52336005FAC66 /* Main.storyboard */,
+				84ABEAD322D52337005FAC66 /* Assets.xcassets */,
+				84ABEAD522D52337005FAC66 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84ABEAE222D5240B005FAC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84ABEAD922D52337005FAC66 /* main.m */,
 				84ABEAC722D52336005FAC66 /* AppDelegate.h */,
 				84ABEAC822D52336005FAC66 /* AppDelegate.m */,
 				84ABEACA22D52336005FAC66 /* ViewController.h */,
 				84ABEACB22D52336005FAC66 /* ViewController.m */,
-				84ABEACD22D52336005FAC66 /* Main.storyboard */,
-				84ABEAD322D52337005FAC66 /* Assets.xcassets */,
-				84ABEAD522D52337005FAC66 /* LaunchScreen.storyboard */,
-				84ABEAD822D52337005FAC66 /* Info.plist */,
-				84ABEAD922D52337005FAC66 /* main.m */,
-				84ABEAD022D52336005FAC66 /* LearnObjective_C.xcdatamodeld */,
 			);
-			path = "LearnObjective-C";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
