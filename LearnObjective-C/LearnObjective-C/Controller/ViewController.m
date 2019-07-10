@@ -38,14 +38,10 @@
     MyTableViewCell *cell = (MyTableViewCell *) [tableView dequeueReusableCellWithIdentifier:@"MyTableViewCell"];
     Lyrics *lyric = [[Lyrics database] objectAtIndex: [indexPath row]];
 
-    //Pq essa sintaxe não funciona?
-//    [[cell title] text] = [lyric nameSong];
-    
-    cell.title.text = lyric.nameSong;
-    cell.band.text = lyric.band;
-    cell.imageBand.image = lyric.image;
-    //Fazer célula customizada
-    
+    [[cell title] setText: [lyric nameSong]];
+    [[cell band] setText: [lyric band]];
+    [[cell imageBand] setImage: [lyric image]];
+
     return cell;
 }
 
