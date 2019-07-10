@@ -38,7 +38,7 @@
     MyTableViewCell *cell = (MyTableViewCell *) [tableView dequeueReusableCellWithIdentifier:@"MyTableViewCell"];
     Lyrics *lyric = [[Lyrics database] objectAtIndex: [indexPath row]];
 
-    //Pq essa sintaxe não funciona
+    //Pq essa sintaxe não funciona?
 //    [[cell title] text] = [lyric nameSong];
     
     cell.title.text = lyric.nameSong;
