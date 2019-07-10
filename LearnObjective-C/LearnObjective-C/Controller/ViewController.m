@@ -40,7 +40,12 @@
 
     [[cell title] setText: [lyric nameSong]];
     [[cell band] setText: [lyric band]];
-    [[cell imageBand] setImage: [lyric image]];
+    
+    if([lyric image] != nil) {
+        [[cell imageBand] setImage: [lyric image]];
+    } else {
+        [[cell imageBand] setImage: [UIImage imageNamed: @"default-image"]];
+    }
 
     return cell;
 }
