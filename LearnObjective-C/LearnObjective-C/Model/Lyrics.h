@@ -7,15 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface Lyrics: NSObject
 
 @property (nonatomic) NSString *nameSong;
 @property (nonatomic) NSString *band;
-@property (nonatomic) NSData *image;
+@property (nonatomic) UIImage *image;
 @property (nonatomic) NSString *lyricsSong;
 
-+ (NSArray *)createDatabase;
++ (NSArray *)database;
 
 - (instancetype)initWithName:(NSString *)nameSong band:(NSString *)band image:(NSData *)image lyricsSong:(NSString *)lyricsSong;
 

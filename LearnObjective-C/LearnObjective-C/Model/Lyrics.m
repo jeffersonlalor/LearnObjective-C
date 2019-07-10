@@ -12,14 +12,17 @@
 
 static NSArray *_all = nil;
 
-+ (NSArray *)createDatabase {
++ (NSArray *)database {
     if (_all == nil) {
         NSMutableArray *lyrics = [[NSMutableArray alloc] init];
         Lyrics *lyric;
         
         lyric = [[Lyrics alloc] initWithName: @"Meus Próprios Meios" band: @"Oficina G3" image: nil lyricsSong: @"I Don't Have Now!"];
         [lyrics addObject: lyric];
-        
+
+        lyric = [[Lyrics alloc] initWithName: @"Depois da Guerra" band: @"Oficina G3" image: nil lyricsSong: @"I Don't Have Now!"];
+        [lyrics addObject: lyric];
+
         _all = lyrics;
     }
     
@@ -28,7 +31,7 @@ static NSArray *_all = nil;
 
 - (instancetype)initWithName:(NSString *)nameSong
                 band:(NSString *)band
-                image:(NSData *)image
+                image:(UIImage *)image
                 lyricsSong:(NSString *)lyricsSong {
     
     self = [super init];
