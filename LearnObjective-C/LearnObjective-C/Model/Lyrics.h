@@ -18,6 +18,6 @@
 
 + (NSArray *)database;
 
-- (instancetype)initWithName:(NSString *)nameSong band:(NSString *)band image:(NSData *)image lyricsSong:(NSString *)lyricsSong;
+- (instancetype)initWithName:(NSString *)nameSong band:(NSString *)band image:(UIImage *)image lyricsSong:(NSString *)lyricsSong;
 
 @end

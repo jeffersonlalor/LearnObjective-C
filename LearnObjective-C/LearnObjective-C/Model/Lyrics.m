@@ -17,10 +17,12 @@ static NSArray *_all = nil;
         NSMutableArray *lyrics = [[NSMutableArray alloc] init];
         Lyrics *lyric;
         
-        lyric = [[Lyrics alloc] initWithName: @"Meus Próprios Meios" band: @"Oficina G3" image: nil lyricsSong: @"I Don't Have Now!"];
+//        UIImage *myimage = [[UIImage alloc] initWithContentsOfFile: @"default-image"];
+        
+        lyric = [[Lyrics alloc] initWithName: @"Meus Próprios Meios" band: @"Oficina G3" image: [UIImage imageNamed: @"default-image"] lyricsSong: @"I Don't Have Now!"];
         [lyrics addObject: lyric];
 
-        lyric = [[Lyrics alloc] initWithName: @"Depois da Guerra" band: @"Oficina G3" image: nil lyricsSong: @"I Don't Have Now!"];
+        lyric = [[Lyrics alloc] initWithName: @"Depois da Guerra" band: @"Oficina G3" image: [UIImage imageNamed: @"default-image"] lyricsSong: @"I Don't Have Now!"];
         [lyrics addObject: lyric];
 
         _all = lyrics;
